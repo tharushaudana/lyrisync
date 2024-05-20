@@ -7,9 +7,9 @@ import 'package:lyrisync/screens/qrscan.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:web_socket_channel/status.dart' as status;
 import 'package:dio/dio.dart';
-import 'package:qr_flutter/qr_flutter.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 

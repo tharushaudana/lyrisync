@@ -1,8 +1,5 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:qr_flutter/qr_flutter.dart';
-import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
 class QrScanScreen extends StatefulWidget {
